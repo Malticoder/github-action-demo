@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "my_bucket" {
+resource "google_storage_bucket" "auto_expire_bucket" {
   name          = "github-action-demo-1"
   location      = "US"
   project = "tt-dev-002"
