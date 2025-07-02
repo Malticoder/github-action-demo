@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "github-actions-demo-bucket-001"
+   bucket  = "github-action-demo"
    prefix  = "terraform/state"
  }
 }
