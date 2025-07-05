@@ -1,7 +1,7 @@
 variable "bucket_name" {
   type = string
   description = "name of the Google Storage bucket"
-  default = "github-action-demo-1"
+
 }
 
 variable "location" {
