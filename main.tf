@@ -1,7 +1,7 @@
 resource "google_storage_bucket" "auto_expire_bucket" {
-  name          = "github-action-demo-1"
-  location      = "us-east-1"
-  project = "tt-dev-002"
+  name          = var.bucket_name
+  location      = var.location
+  project = "var.project"
   force_destroy = true
   public_access_prevention = "enforced"
   }
